@@ -31,7 +31,7 @@ export default function Login() {
   <br/>
 
 <button onClick={next}>Login</button>
-<button onClick={nextone}>Login</button>
+<button onClick={nextone}>Sign UP</button>
   </div>
       </div>
   );
