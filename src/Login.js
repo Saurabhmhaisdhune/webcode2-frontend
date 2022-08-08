@@ -31,11 +31,7 @@ export default function Login() {
   <br/>
 
 <button onClick={next}>Login</button>
-    <input 
-  type="submit"
-  onClick={nextone} 
-  placeholder="Sign up"
-  />
+<button onClick={nextone}>Login</button>
   </div>
       </div>
   );
