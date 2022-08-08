@@ -1,0 +1,156 @@
+*{
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#title{
+  background-color: rgb(54, 213, 200);
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-size: 33px;
+  border-bottom: 10px;
+}
+#buttons{
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+ 
+}
+#btn1,#btn2{
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(80, 176, 255);
+  color: black;
+  border-radius: 25px;
+  position: relative;
+  top: 400px;
+  width: 90px;
+  left: 50%;
+}
+#btn:hover{
+  background-color: rgb(0, 140, 254);
+  cursor: pointer;
+
+}
+
+#login{
+  border: 2px solid black;
+  width:600px;
+  margin: 70px;
+  color:white;
+  border-radius: 20px;
+  background-color: rgb(54, 213, 200);
+
+  height: 400px;
+  margin-top: 90px;
+  font-size: larger;
+  padding: 50px;
+}
+#cards{
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  padding: 100px;
+}
+#item{
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 200px;
+  margin: 50px;
+}
+#nname{
+ background-color: white;
+}
+
+#time{
+  background-color: white;
+}
+#datee{
+  height: 55px;
+  width: 300px;
+  font-size: large;
+
+}
+#flex1{
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+#flex2{
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+#flex3{
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+#flex{
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 120px;
+  padding: 10px;
+
+}
+#fle{
+  margin-top: 150px;
+}
+div:focus{
+  background-color:green;
+}
+#count{
+  text-align: center;
+}
+#counts{
+  height: 50px;
+  width: 130px;
+  text-align: center;
+  font-size: 15px;
+}
+#all{
+  height:40px;
+   width:300px;
+   font-size: 15px;
+   margin-bottom: 12px;
+   font-size: large;
+}
+#log{
+  margin-bottom: 30px;
+}
+#text1{
+  font-size: larger;
+}
+#btnn{
+  text-align: center;
+  margin-bottom: 40px;
+ 
+}
+#btn{
+  background-color: rgb(55, 175, 255);
+  color: white;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top:20px;
+}
+body{
+  background-color: rgb(182, 182, 182);
+}
+#movielist{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border:3px solid black;
+  border-radius: 5px;
+  height:30px;
+  font-size:20px;
+}
